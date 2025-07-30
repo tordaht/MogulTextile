@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mogul | Video Prodüksiyon Taslağı</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #f8fafc;
+            color: #1e293b;
+        }
+        .scroll-animate {
+            opacity: 0;
+            transform: translateY(40px);
+            transition: opacity 0.9s ease-out, transform 0.9s ease-out;
+        }
+        .scroll-animate.visible {
+            opacity: 1;
+            transform: translateY(0);
+        }
+        .scene-description {
+            font-style: italic;
+            color: #64748b;
+            border-left: 3px solid #0ea5e9;
+            padding-left: 1rem;
+            margin-bottom: 1.5rem;
+        }
+        .narrator-voice {
+            font-size: 1.125rem;
+            line-height: 1.75;
+            color: #334155;
+        }
+        .timestamp {
+            display: inline-block;
+            background-color: #0f172a;
+            color: #f1f5f9;
+            padding: 0.25rem 0.75rem;
+            border-radius: 9999px;
+            font-weight: 600;
+            font-size: 0.875rem;
+            margin-bottom: 1rem;
+            letter-spacing: 0.5px;
+        }
+        .shot-description {
+            background-color: #e2e8f0; /* slate-200 */
+            border: 2px dashed #94a3b8; /* slate-400 */
+            padding: 1.5rem;
+            border-radius: 0.75rem; /* 12px */
+            margin-top: 2rem;
+            color: #1e293b; /* slate-800 */
+            font-family: monospace;
+            font-size: 1rem;
+            line-height: 1.6;
+        }
+        .shot-description strong {
+            color: #0f172a; /* slate-900 */
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body class="antialiased">
+
+    <!-- Sahne 1: Açılış -->
+    <header class="bg-slate-100 h-screen flex flex-col items-center justify-center text-center p-8">
+        <div class="scroll-animate">
+            <img src="https://mogulsb.com/storage/app/media/Logos/logo-stiky.png" alt="Mogul Logo" class="h-20 mx-auto mb-8">
+            <h1 class="text-4xl md:text-6xl font-extrabold text-slate-900 tracking-tight">
+                Geleceği Birlikte İnşa Edelim
+            </h1>
+            <p class="mt-4 text-xl md:text-2xl font-semibold text-slate-700">
+                Mogul Kurumsal Tanıtım Filmi
+            </p>
+            <div class="shot-description max-w-2xl mx-auto">
+                <strong>MOGRAPH:</strong> Mogul logosu ekrana temiz bir animasyonla gelir. "Geleceği Birlikte İnşa Edelim" sloganı belirginleşir.<br>
+                <strong>FOOTAGE:</strong> Arka planda, nonwoven kumaş üretim hattından estetik, yavaş çekim ve makro detaylar döner. Görüntüler aydınlık ve teknolojik bir his verir.
+            </div>
+        </div>
+    </header>
+
+    <main class="container mx-auto px-6 py-16 md:py-24 space-y-20 md:space-y-28">
+
+        <!-- Sahne 2: Kuruluş Hikayesi -->
+        <section id="history" class="scroll-animate max-w-4xl mx-auto">
+            <div class="timestamp">[0:05 – 0:15]</div>
+            <p class="scene-description">
+                Mogul logosu yavaşça kaybolur. Ekranda "1997'den bu yana..." başlığı belirir. Kurucu Ekrem Kayalı'nın kararlı bir portresi ve ardından fabrikada çalışan güler yüzlü personelin görüntüleri belirir.
+            </p>
+            <p class="narrator-voice">
+                "Her büyük başarı bir vizyonla başlar. 1997 yılında Ekrem Kayalı'nın öncülüğünde atılan bu adım, bugün 500'den fazla çalışanıyla global bir güce dönüştü. Biz, köklerine bağlı, geleceğe odaklı büyük bir aileyiz."
+            </p>
+            <div class="shot-description">
+                <strong>MOGRAPH:</strong> "1997'den bu yana..." metni, modern bir fontla ekranda belirir. "500+ çalışan" ifadesi, animasyonlu bir sayıcı ile vurgulanır.<br>
+                <strong>FOOTAGE:</strong> Kurucu Ekrem Kayalı'nın ofisinde veya fabrika ortamında çekilmiş, kararlı ve vizyoner bir portre videosu. Ardından, üretim hattında, laboratuvarda ve ofiste çalışan farklı departmanlardan personelin profesyonel ve mutlu anlarını gösteren dinamik çekimler.
+            </div>
+        </section>
+
+        <!-- Sahne 3: Tesisler -->
+        <section id="facilities" class="scroll-animate">
+            <div class="timestamp">[0:15 – 0:30]</div>
+            <p class="scene-description">
+                Drone çekimleriyle Gaziantep'teki modern idari bina, ardından 25.000 m² ve 20.000 m²'lik devasa fabrikaların dış cepheleri gösterilir. Hızlı bir kurguyla Lüleburgaz ve İstanbul'daki lojistik merkezlerine geçilir.
+            </p>
+            <p class="narrator-voice">
+                "Stratejik olarak konumlandırılmış tesislerimizle Türkiye'nin kalbinden dünyaya ulaşıyoruz. Gaziantep'teki 45.000 metrekarelik üretim üssümüz ve Marmara'daki lojistik merkezlerimizle, kaliteyi ve hızı güvence altına alıyoruz."
+            </p>
+            <div class="shot-description">
+                <strong>FOOTAGE:</strong> Gün doğumunda veya batımında Gaziantep idari binası ve fabrikaların üzerinden geçen sinematik drone çekimleri. Tesislerin büyüklüğünü ve modernliğini vurgulayan geniş açılı ve yükselen kamera hareketleri. Lüleburgaz ve İstanbul'daki lojistik merkezlerinden, tırların yükleme yaptığı ve sevkiyata hazırlandığı hızlandırılmış (timelapse) görüntüler.
+            </div>
+        </section>
+
+        <!-- Sahne 4: Teknoloji -->
+        <section id="technology" class="scroll-animate max-w-5xl mx-auto">
+            <div class="timestamp">[0:30 – 0:45]</div>
+            <p class="scene-description">
+                Dinamik ve ritmik bir kurguyla üretim hatlarına inilir. Spunbond, meltblown ve bikomponent proses makinelerinin detaylı, yakın plan çekimleri yapılır. Robotik kollar ve otomasyon sistemleri vurgulanır.
+            </p>
+            <p class="narrator-voice">
+                "Teknoloji, DNA'mızın bir parçası. Spunbond, meltblown, SMS ve bikomponent gibi en gelişmiş nonwoven üretim prosesleriyle, her sektöre özel, üstün nitelikli çözümler sunuyoruz. Esneklik ve verimlilik, makine parkurumuzun temel ilkesidir."
+            </p>
+             <div class="shot-description">
+                <strong>FOOTAGE:</strong> Üretim hatlarındaki makinelerin hareketli parçalarına yapılan makro çekimler. Erimiş polimerin liflere dönüşme anı. Kumaşın silindirler arasında hızla aktığı ritmik ve detaylı görüntüler. Robotik kolların kumaş rulolarını taşıdığı otomasyon sahneleri.<br>
+                <strong>MOGRAPH:</strong> Görüntülerin üzerine "Spunbond", "Meltblown", "Bi-Component" gibi teknoloji isimlerinin temiz ve modern grafiklerle yazılması.
+             </div>
+        </section>
+
+        <!-- Sahne 5: Ürünler ve Uygulamalar -->
+        <section id="products" class="scroll-animate">
+            <div class="timestamp">[0:45 – 1:30]</div>
+            <p class="scene-description">
+                Sahne, temiz ve aydınlık bir stüdyoya geçer. BUFFALO ve Madaline® kumaşlarının dokusu yakın planda gösterilir. Ardından MOTEX®'in otomotiv parçalarında, Meltblown kumaşların ise medikal maske ve endüstriyel filtrelerde kullanıldığı sahneler hızla akar.
+            </p>
+            <p class="narrator-voice">
+                "Ürünlerimiz, hayatın her alanına dokunuyor. BUFFALO ve Madaline® ile performansta yeni standartlar belirliyoruz. MOTEX® ile dayanıklılık ve hafifliği birleştiriyor, Meltblown kumaşlarımızla medikal hijyenden zorlu endüstriyel filtrasyona kadar kritik alanlarda güven sağlıyoruz."
+            </p>
+            <div class="shot-description">
+                <strong>FOOTAGE:</strong> Medikal bir ortamda cerrahların kullandığı önlükler ve maskelerin yakın plan çekimleri. Bir otomobilin iç trim parçalarının veya yalıtım malzemelerinin montajı. Endüstriyel bir tesiste hava veya sıvı filtrelerinin değiştirildiği sahneler. Hijyenik ped veya bebek bezi gibi ürünlerin üretim hattından kesitler.<br>
+                <strong>MOGRAPH:</strong> Her uygulama alanına göre "Medikal & Hijyen", "Otomotiv", "Endüstriyel Filtrasyon" gibi başlıkların ekrana gelmesi.
+            </div>
+        </section>
+
+        <!-- Sahne 6: İnovasyon ve Sürdürülebilirlik -->
+        <section id="innovation" class="scroll-animate">
+            <div class="timestamp">[1:30 – 1:45]</div>
+            <p class="scene-description">
+                AR-GE merkezindeyiz. Beyaz önlüklü mühendisler mikroskop altında incelemeler yapar, laboratuvarda testler gerçekleştirir. Ekranda "İnovasyon & Sürdürülebilirlik" başlığı ve biyo-bazlı PLA testlerinden grafikler belirir.
+            </p>
+            <p class="narrator-voice">
+                "Geleceği sadece inşa etmiyor, onu aynı zamanda koruyoruz. AR-GE merkezimiz, patentli prosesler ve biyo-çözünür materyallerle sürdürülebilir bir dünya için çalışıyor. İnovasyon, bizim için bir kültürdür."
+            </p>
+            <div class="shot-description">
+                <strong>FOOTAGE:</strong> AR-GE uzmanlarının modern laboratuvar ekipmanlarıyla çalıştığı sahneler. Mikroskop görüntüsü, test cihazlarının ekranları, numuneler üzerinde yapılan kalite kontrol testleri. Üniversite işbirliklerini temsilen toplantı veya ortak çalışma anları.<br>
+                <strong>MOGRAPH:</strong> Ekranda beliren patent belgeleri, test sonuçlarını gösteren animasyonlu grafikler ve "Biyo-çözünür PLA" gibi anahtar kelimelerin vurgulanması.
+            </div>
+        </section>
+        
+        <!-- Sahne 7: Kalite ve Güven -->
+        <section id="certifications" class="scroll-animate text-center">
+             <div class="timestamp">[1:45 – 1:55]</div>
+             <p class="scene-description">
+                Sade bir arka plan üzerinde EDANA, INDA, BSI, Oeko-Tex gibi uluslararası kalite sertifikalarının logoları belirir. "Güvenilirlik & Standartlar" alt başlığı logoların arasında dolaşır.
+            </p>
+             <p class="narrator-voice">
+                "Kalitemiz ve güvenilirliğimiz, global standartlarla tescillidir. Üretimin her aşamasında en yüksek kalite kontrol süreçlerini uygulayarak, müşterilerimize sadece bir ürün değil, bir güvence sunarız."
+            </p>
+            <div class="shot-description">
+                <strong>MOGRAPH:</strong> Temiz, beyaz bir arka plan üzerinde kalite sertifikalarının (EDANA, INDA, BSI, Oeko-Tex, ECARF vb.) logolarının zarif animasyonlarla tek tek veya birlikte ekrana gelmesi. "Güvenilirlik & Standartlar" metninin logolarla etkileşime girmesi.
+            </div>
+        </section>
+    </main>
+
+    <!-- Sahne 8: Kapanış -->
+    <footer id="contact" class="bg-slate-900 text-white text-center py-16 md:py-24">
+        <div class="scroll-animate">
+            <div class="timestamp">[1:55 – 2:00]</div>
+            <h2 class="text-3xl md:text-4xl font-extrabold tracking-tight">Geleceği Birlikte İnşa Edelim</h2>
+            <p class="mt-4 text-lg text-slate-300 max-w-2xl mx-auto">
+                "Mogul. Yenilikçi teknoloji, sarsılmaz güven."
+            </p>
+            <div class="mt-8 flex flex-col md:flex-row justify-center items-center gap-8">
+                <a href="tel:+903423371499" class="font-semibold text-lg hover:text-sky-400 transition-colors">(0342) 337 14 99</a>
+                <a href="mailto:info@mogulsb.com" class="font-semibold text-lg hover:text-sky-400 transition-colors">info@mogulsb.com</a>
+                <a href="#" target="_blank" rel="noopener noreferrer" class="hover:text-sky-400 transition-colors" aria-label="LinkedIn">
+                    <svg class="w-8 h-8" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                        <path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/>
+                    </svg>
+                </a>
+            </div>
+            <p class="mt-12 text-sm text-slate-500">&copy; 2024 Mogul. Tüm hakları saklıdır.</p>
+        </div>
+    </footer>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const animatedElements = document.querySelectorAll('.scroll-animate');
+            const observer = new IntersectionObserver((entries) => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        entry.target.classList.add('visible');
+                    }
+                });
+            }, {
+                threshold: 0.15
+            });
+            animatedElements.forEach(el => observer.observe(el));
+        });
+    </script>
+</body>
+</html>
